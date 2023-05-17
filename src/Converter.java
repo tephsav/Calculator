@@ -1,6 +1,6 @@
 public class Converter {
 
-    static int romanToArabic(String romanNumber) {
+    public static int romanToArabic(String romanNumber) {
         String[] romanNumbers = {"I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"};
         int arabicNumber = 0;
 
@@ -14,7 +14,7 @@ public class Converter {
         return arabicNumber;
     }
 
-    static String arabicToRoman(int arabicNumber) {
+    public static String arabicToRoman(int arabicNumber) {
         String romanNumber = "";
         int[] keyArabicNumbers = {100, 90, 50, 40, 10, 9, 5, 4, 1};
         String[] keyRomanNumbers = {"C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
